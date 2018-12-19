@@ -1,0 +1,13 @@
+/****创建学生信息表并插入数据****/
+create table stu(id int primary key auto_increment, name varchar(20),sex char(2),age int,class varchar(20))engine myisam charset utf8;
+
+insert into stu values(1,'张三丰','男',99,'美术班');
+insert into stu values(2,'李秋水','女',83,'美术班');
+insert into stu values(3,'阿紫','女',17,'美术班');
+insert into stu values(4,'马大帅','男',43,'舞蹈班');
+insert into stu values(5,'小沈阳','男',28,'美术班');
+insert into stu values(6,'无崖子','男',76,'音乐班');
+insert into stu values(7,'大师兄','男',108,'舞蹈班');
+insert into stu values(8,'天山童姥','女',102,'舞蹈班');
+insert into stu values(9,'张无忌','男',33,'音乐班');
+insert into stu values(10,'周芷若','女',21,'音乐班');
